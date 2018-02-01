@@ -6,6 +6,9 @@
 @import 'vendor/normalize.css';
 @import 'vendor/h5bp-tail.css';
 
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
 /* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -15,10 +18,10 @@ img, object { max-width: 100%; }
 /*	Development/layout aid. Remove the comments
 	on this rule in order to draw boxes around DIVs
 	and other elements used for layout. */
-/* 
+/*
 div, main, article, section, aside, hgroup, header, footer, address, nav {
 	border: 1px solid rgba(255,0,0,0.15) !important;
-	background: rgba(255,0,0,0.05) !important;		
+	background: rgba(255,0,0,0.05) !important;
 }
 */
 
@@ -33,12 +36,43 @@ body {
 	color: #222;
 }
 
+background-image{
+   background-image: url("http://eskipaper.com/images/pattern-wallpaper-22.jpg");
+	 background-repeat: repeat-y;
+}
+h1 {
+	font-family: "Dancing Script", cursive;
+	font-size: 50px;
+
+}
 /*	Generally, you will only want one container element in
-	the document, wrapping around the main content area. 
+	the document, wrapping around the main content area.
 	If you have more than one container, you are probably doing
-	something wrong. 	
+	something wrong.
 */
+
+h2{
+	text-decoration: underline;
+
+}
+img {
+	position: float;
+	margin-left: 65%;
+	margin-top: -50%;
+	max-width: 400px;
+}
+
+p {
+	max-width: 500px;
+	border: solid 1px;
+	padding: 10px;
+	font-size: 16px;
+
+}
+
+
 .container {
+	background: #fff;
 	margin-top: 1em;
 	margin-right: auto;
 	margin-bottom: 1em;
@@ -48,4 +82,3 @@ body {
 	padding: 2em;
 	border: 5px solid #eee;
 }
-
